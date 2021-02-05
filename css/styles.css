@@ -1,0 +1,264 @@
+body {
+    font-size: 1.2rem;
+    background-color: #301D55;
+}
+h2 { 
+    font-weight: 500;
+  }
+
+header.home-hero {
+    position: relative;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+header.home-hero .container {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+}
+
+header.home-hero .nav-section{
+    position:absolute;
+    width: 100%;
+    z-index:10;
+}
+
+header.home-hero .nav-section .nav-link{
+    color: white;
+}
+
+header.home-hero .social-nav{
+    position: absolute;
+    right: 0;
+    bottom:0;
+    z-index: 20;
+}
+header.home-hero .social-nav .nav-link{
+    color: white;
+    font-size: 1.5rem;
+}
+
+header.home-hero .texture{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2;
+    background:url('/images/texture.png');
+    background:linear-gradient(to right,rgba(48, 29, 85, 0.9),rgba(255, 0, 232, 0.4));
+}
+
+.text-container {
+        /* background-image:
+          linear-gradient(#141414, #0f0f0f, #000);
+          border-left: 2px solid #212121;
+          border-right: 2px solid #212121; */
+          font-family: "Rubik", Sans-serif;
+}
+.btn {
+    max-width: 250px;
+    border-radius: 0;
+    font-weight: 500;
+}
+
+header.home-hero video:before {
+    content:"";
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    z-index:1;
+    background:linear-gradient(to right,rgba(65, 0, 255, 0.4),rgba(255, 0, 232, 0.3));
+  }
+
+header.home-hero video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+@media (max-width: 575.98px) {
+    header.home-hero video {
+        display: none;
+   }
+}
+header.home-hero img.poster {
+    height: 100vh;
+    min-height: 100vh;
+    object-fit: cover;
+    object-position: bottom right;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media (pointer: coarse) and (hover: none) {
+    header {
+        background: url('https://raw.githubusercontent.com/solodev/hero-with-video-bg/master/images/hero-video-poster.jpg') no-repeat bottom right scroll;
+   }
+}
+
+
+header.home .nav-section{
+    height: 60px;
+    width: 100%;
+    background:linear-gradient(to right,rgba(53, 34, 89, 1.0),rgba(53, 34, 89, 0.8));
+}
+
+header.home .nav-section .nav-link{
+    color: white;
+}
+
+.main-container{
+    background-color: #301D55;
+}
+
+#main{
+    padding-top: 0px;
+}
+
+.section-text .title{
+    font-family: "Rubik", Sans-serif;
+    font-size: 37px;
+    font-weight: 300;
+}
+
+.section-img img{
+    height: 500px;
+}
+
+.section-text .title-highlight{
+    color: #FF3E6B;
+}
+
+.section-text .desc{
+    color: #BDB7C8;
+    font-family: "Roboto", Sans-serif;
+}
+
+.sign-up-form .form-group label{
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.sign-up-form .form-group input{
+    border: 2px solid transparent;
+    border-bottom: 2px solid #b535f6;
+}
+
+#sign-up-action{
+    background-color: #020102;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+#sign-up-action .btn-light{
+    background-color: #b535f6;
+    color: #fff;
+    border: 2px solid transparent;
+    font-weight: bold;
+}
+
+
+.footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#301D55;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:40px;
+    color:#fff;
+    display:inline-block;
+    /* width:36px;
+    height:36px;
+    line-height:36px;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    
+    opacity:0.75; */
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+  }
+  
