@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on FitAtom</title>
-    <link>https://fitatom.app/tags/</link>
+    <link>fitatom.github.io/tags/</link>
     <description>Recent content in Tags on FitAtom</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Jan 2019 23:24:54 -0600</lastBuildDate>
     
-	<atom:link href="https://fitatom.app/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="fitatom.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>poetry</title>
-      <link>https://fitatom.app/tags/poetry/</link>
+      <link>fitatom.github.io/tags/poetry/</link>
       <pubDate>Sat, 12 Jan 2019 23:24:54 -0600</pubDate>
       
-      <guid>https://fitatom.app/tags/poetry/</guid>
+      <guid>fitatom.github.io/tags/poetry/</guid>
       <description></description>
     </item>
     
     <item>
       <title>time</title>
-      <link>https://fitatom.app/tags/time/</link>
+      <link>fitatom.github.io/tags/time/</link>
       <pubDate>Sat, 12 Jan 2019 23:24:54 -0600</pubDate>
       
-      <guid>https://fitatom.app/tags/time/</guid>
+      <guid>fitatom.github.io/tags/time/</guid>
       <description></description>
     </item>
     
