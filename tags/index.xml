@@ -6,7 +6,6 @@
     <description>Recent content in Tags on FitAtom</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Jan 2019 23:24:54 -0600</lastBuildDate>
     
 	<atom:link href="fitatom.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +13,7 @@
     <item>
       <title>poetry</title>
       <link>fitatom.github.io/tags/poetry/</link>
-      <pubDate>Sat, 12 Jan 2019 23:24:54 -0600</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>fitatom.github.io/tags/poetry/</guid>
       <description></description>
@@ -23,7 +22,7 @@
     <item>
       <title>time</title>
       <link>fitatom.github.io/tags/time/</link>
-      <pubDate>Sat, 12 Jan 2019 23:24:54 -0600</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>fitatom.github.io/tags/time/</guid>
       <description></description>

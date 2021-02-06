@@ -1,46 +1,47 @@
 body {
     font-size: 1.2rem;
     background-color: #301D55;
+    font-family: "Rubik", Sans-serif;
 }
 h2 { 
     font-weight: 500;
   }
 
-header.home-hero {
+div.home-hero {
     position: relative;
     height: 100vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
 }
-header.home-hero .container {
+div.home-hero .container {
     position: relative;
     z-index: 2;
     height: 100%;
 }
 
-header.home-hero .nav-section{
+div.home-hero .nav-section{
     position:absolute;
     width: 100%;
     z-index:10;
 }
 
-header.home-hero .nav-section .nav-link{
+div.home-hero .nav-section .nav-link{
     color: white;
 }
 
-header.home-hero .social-nav{
+div.home-hero .social-nav{
     position: absolute;
     right: 0;
     bottom:0;
     z-index: 20;
 }
-header.home-hero .social-nav .nav-link{
+div.home-hero .social-nav .nav-link{
     color: white;
     font-size: 1.5rem;
 }
 
-header.home-hero .texture{
+div.home-hero .texture{
     width:100%;
     height:100%;
     position:absolute;
@@ -64,7 +65,7 @@ header.home-hero .texture{
     font-weight: 500;
 }
 
-header.home-hero video:before {
+div.home-hero video:before {
     content:"";
     position: absolute;
     top:0;
@@ -75,7 +76,7 @@ header.home-hero video:before {
     background:linear-gradient(to right,rgba(65, 0, 255, 0.4),rgba(255, 0, 232, 0.3));
   }
 
-header.home-hero video {
+div.home-hero video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -90,11 +91,11 @@ header.home-hero video {
     transform: translateX(-50%) translateY(-50%);
 }
 @media (max-width: 575.98px) {
-    header.home-hero video {
+    div.home-hero video {
         display: none;
    }
 }
-header.home-hero img.poster {
+div.home-hero img.poster {
     height: 100vh;
     min-height: 100vh;
     object-fit: cover;
@@ -111,13 +112,14 @@ header.home-hero img.poster {
 }
 
 
-header.home .nav-section{
-    height: 60px;
+nav#top-nav{
+    position: absolute;
     width: 100%;
-    background:linear-gradient(to right,rgba(53, 34, 89, 1.0),rgba(53, 34, 89, 0.8));
+    z-index: 20;
+    /* background:linear-gradient(to right,rgba(53, 34, 89, 1.0),rgba(53, 34, 89, 0.8)); */
 }
 
-header.home .nav-section .nav-link{
+#main-nav .nav-link{
     color: white;
 }
 
@@ -139,6 +141,14 @@ header.home .nav-section .nav-link{
     height: 500px;
 }
 
+
+@media (max-width: 575.98px) {
+    .section-img img{
+        height: 250px;
+    }
+    
+}
+
 .section-text .title-highlight{
     color: #FF3E6B;
 }
@@ -148,14 +158,14 @@ header.home .nav-section .nav-link{
     font-family: "Roboto", Sans-serif;
 }
 
-.sign-up-form .form-group label{
+#sign-up-form-modal .form-group label{
     color: white;
     font-family: "Roboto", sans-serif;
 }
 
-.sign-up-form .form-group input{
+input#formEmail, input#formName {
     border: 2px solid transparent;
-    border-bottom: 2px solid #b535f6;
+    border-bottom: 2px solid #FF3E6B;
 }
 
 #sign-up-action{
@@ -163,13 +173,20 @@ header.home .nav-section .nav-link{
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
-#sign-up-action .btn-light{
-    background-color: #b535f6;
+#sign-up-form-modal .btn-light{
+    background-color: #FF3E6B;
     color: #fff;
     border: 2px solid transparent;
     font-weight: bold;
 }
 
+.sign-up-btn{
+    background-color: #FF3E6B;
+}
+
+.modal-header {
+    border: none;
+}
 
 .footer-dark {
     padding:50px 0;
@@ -262,3 +279,28 @@ header.home .nav-section .nav-link{
     margin-bottom:0;
   }
   
+
+
+
+/* BLOG */
+div.blog-bg{
+    background-image: url("/images/blog_header.jpg");
+    width: 100%;
+    height: 200px;
+}
+
+#blog-link a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #301D55;
+}
+
+#blog-link .card{
+    border: none;
+    border-radius: 0;
+}
+
+#blog-link .card-body{
+    min-height: 10vh;
+
+}
